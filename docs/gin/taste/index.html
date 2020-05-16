@@ -19,12 +19,14 @@
 <body>
 
 <div id="gin">
-
   <h1>sPIRITs of Gin</h1>
-  <h1 class="large">Gin #{{ginId}} !</h1>
-  <p>Taste was done: {{tasteDone}}.</p>
-
-  <iframe id="kobo" v-bind:src="koboUrl" title="Tasting"></iframe>
+  <h1 class="display-1">Gin #{{ginId}} !</h1>
+  <div v-if="tasteDone">
+    <p>{{allTastes.lenght}} Tastes were done.</p>
+  </div>
+  <div v-else> 
+    <iframe id="kobo" v-bind:src="koboUrl" title="Tasting"></iframe>
+  </div>
 </div>
  
  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
