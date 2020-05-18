@@ -24,7 +24,18 @@
   <h1 class="display-81">Gin #{{ginId}} !</h1>
   <div v-if="tasteDone">
     <p>{{ginData.size}} Tastes were done.</p>
-    <canvas id="chartGeruch" width="400" height="400"></canvas>
+    <div class="container-fluid">
+      <div class="row" style="margin: 8px;">
+        <div class="col-md-6 ">
+           <h2>Geruch</h2>
+           <canvas id="geruchChart" width="400" height="400"></canvas>
+        </div> 
+        <div class="col-md-6 ">
+           <h2>Geschmack</h2>
+           <canvas id="geschmackChart" width="400" height="400"></canvas>
+        </div> 
+       </div>
+    </div> 
   </div>
   <div v-else> 
     <iframe id="kobo" v-bind:src="koboUrl" title="Tasting"></iframe>
