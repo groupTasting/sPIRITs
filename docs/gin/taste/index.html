@@ -23,7 +23,7 @@
   <h1 id="header">sPIRITs of Gin</h1>
   <h1 class="display-81">Gin #{{ginId}} !</h1>
   <div v-if="tasteDone">
-    <p>{{allTastes.length}} Tastes were done.</p>
+    <p>{{ginData.size}} Tastes were done.</p>
   </div>
   <div v-else> 
     <iframe id="kobo" v-bind:src="koboUrl" title="Tasting"></iframe>
