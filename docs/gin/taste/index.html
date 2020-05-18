@@ -22,7 +22,7 @@
 <div id="gin">
   <h1 id="header">sPIRITs of Gin</h1>
   <h1 class="display-81">Gin #{{ginId}} !</h1>
-  <div v-if="tasteDone">
+  <div v-show="tasteDone">
     <p>{{ginData.size}} Tastes were done.</p>
     <div class="container-fluid">
       <div class="row" style="margin: 8px;">
@@ -37,7 +37,7 @@
        </div>
     </div> 
   </div>
-  <div v-else> 
+  <div v-if="!tasteDone"> 
     <iframe id="kobo" v-bind:src="koboUrl" title="Tasting"></iframe>
   </div>
 </div>
