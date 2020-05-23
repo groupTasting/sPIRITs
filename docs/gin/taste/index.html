@@ -26,7 +26,8 @@
     <div class="container-fluid">
       <div class="row" style="margin: 8px;">
         <div class="col-md-3 ">
-          <a v-if="prevGin" href="prevUrl"> <img src="../../img/backward.png" v-bind:alt="prevGin"></a>
+          <a v-if="prevGin" v-bind:href="prevUrl"> <img src="../../img/backward.png" v-bind:alt="prevGin"></a>
+          <p>Previous Gin: # {{prevGin}}</p>
        </div>
         <div class="col-md-6 ">
          <h1 id="header">sPIRITs of Gin</h1>
@@ -34,7 +35,8 @@
          <p>{{ginData.size}} Tastes were done.</p>
        </div>
         <div class="col-md-3 ">
-          <a v-if="nextGin" href="nextUrl"> <img src="../../img/forward.png" v-bind:alt="nextGin"></a>
+          <a v-if="nextGin" v-bind:href="nextUrl"> <img src="../../img/forward.png" v-bind:alt="nextGin"></a>
+           <p>Next Gin: # {{nextGin}}</p>
        </div>
     </div> 
       <div v-show="tasteDone" class="row" style="margin: 8px;">
