@@ -37,7 +37,11 @@
        </div>
        <div class="col-md-4 ">
          <div v-if="tasteDone"> 
-           <img v-bind:src="imgUrl" v-bind:alt="ginId" width="150px">
+           <img v-bind:src="imgUrl" v-bind:alt="ginId" heigth="240px" style="float:left;">
+           <p>bla bla</p>
+           <iframe style="width:120px;height:240px;float:right; " marginwidth="0" marginheight="0" scrolling="no" frameborder="0" 
+            v-bind:src="amzUrl">
+           </iframe>
          </div>      
        </div>
         <div class="col-md-2 ">
