@@ -1,16 +1,15 @@
 {
- "id": 1,
- "name": "Xoriguer Mahon",
+ "id": 9,
+ "name": "Brockmans Intensly Smooth",
  "kind": "",
- "image": "1.jpg",
- "country": "Spanien",
+ "image": "9.jpg",
+ "country": "England",
  "location": {"latitude": 39.889444, "longitude": 4.264722},
- "percent": 38,
- "base": "Weindestillat",
- "botanicals": ["Wacholder", "Eichenfass"],
- "description": "",
- "asin": "B00VQRR4E6",
+ "percent": 40,
+ "base": "Getreide",
+ "botanicals": ["Wacholder", "Angelikawurzel", "Koriander", "Zitrone", "Orange", "Blaubeere", "Brombeere"],
+ "description": "BROCKMANS Gin ist ein Gin wie kein anderer und hat sich entsprechend das Motto 'LIKE NO OTHER' zu eigen gemacht",
+ "asin": "B008HKMK8U",
  "alink": "83dbda6bdc05877ec89c4fc8673036dd"
 }
-
 
