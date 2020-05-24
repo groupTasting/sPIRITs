@@ -4,7 +4,7 @@
  "kind": "",
  "image": "3.jpg",
  "country": "Kolumbien",
- "location3: {"latitude": 39.889444, "longitude": 4.264722},
+ "location": {"latitude": 39.889444, "longitude": 4.264722},
  "percent": 43,
  "base": "",
  "botanicals": ["Wacholder", "Rumfass", "Limette", "Minze", "Limon Mandarino"],
