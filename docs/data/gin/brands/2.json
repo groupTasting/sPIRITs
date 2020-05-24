@@ -1,0 +1,17 @@
+{
+ "id": 2,
+ "name": "Amuerte Weiss",
+ "kind": "",
+ "image": "2.jpg",
+ "country": "Belgien",
+ "location": {"latitude": 51.020278, "longitude": 5.309444},
+ "percent": 43,
+ "base": "",
+ "botanicals": ["Wacholder", "Coca", "Koriander", "Finger Lime", "Sichuanpfeffer"],
+ "description": "",
+ "asin": "B00VQRR4E6",
+ "alink": "83dbda6bdc05877ec89c4fc8673036dd"
+}
+
+
+
