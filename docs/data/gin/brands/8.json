@@ -1,15 +1,15 @@
 {
- "id": 1,
- "name": "Xoriguer Mahon",
+ "id": 8,
+ "name": "Hapusa Himalayan",
  "kind": "",
- "image": "1.jpg",
- "country": "Spanien",
+ "image": "8.jpg",
+ "country": "Indien",
  "location": {"latitude": 39.889444, "longitude": 4.264722},
- "percent": 38,
- "base": "Weindestillat",
- "botanicals": ["Wacholder", "Eichenfass"],
- "description": "",
- "asin": "B00VQRR4E6",
+ "percent": 43,
+ "base": "",
+ "botanicals": ["Wacholder", "Pinie", "Mango", "Kurkuma", "Wildblumen"],
+ "description": "Der erste Himalaya Dry Gin der Welt. Der Name 'Hapusa' stammt aus dem alt-indischen Sanskrit und bedeutet Wacholder. Die verwendeten Botanicals des Hapusa Himalayan Dry Gins schicken den Genießer auf eine Aromen-Reise durch das Himalaya-Gebiet; vorbei am Ufer des Hooghly-Flusses, über die Kiefernwälder bis hin zu den Monsun-Wäldern von Tamil Nadu",
+ "asin": "B07QM19PKM",
  "alink": "83dbda6bdc05877ec89c4fc8673036dd"
 }
 
