@@ -1,15 +1,15 @@
 {
- "id": 1,
- "name": "Xoriguer Mahon",
+ "id": 12,
+ "name": "Bobby'S Schiedam",
  "kind": "",
- "image": "1.jpg",
- "country": "Spanien",
+ "image": "12.jpg",
+ "country": "Niederlande",
  "location": {"latitude": 39.889444, "longitude": 4.264722},
- "percent": 38,
- "base": "Weindestillat",
- "botanicals": ["Wacholder", "Eichenfass"],
- "description": "",
- "asin": "B00VQRR4E6",
+ "percent": 42,
+ "base": "",
+ "botanicals": ["Wacholder", "Nelke", "Hagebutte", "Zitronengras", "Kubebenpfeffer"],
+ "description": "BOBBY'S Schiedam Dry Gin ist ein komplexer und vollmundiger Gin, kombiniert aus lokalen und exotischen Botanicals.",
+ "asin": "B00YPBTNDA",
  "alink": "83dbda6bdc05877ec89c4fc8673036dd"
 }
 

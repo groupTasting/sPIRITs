@@ -1,15 +1,15 @@
 {
- "id": 1,
- "name": "Xoriguer Mahon",
+ "id": 3,
+ "name": "Dictador Colombian Aged Black",
  "kind": "",
- "image": "1.jpg",
- "country": "Spanien",
- "location": {"latitude": 39.889444, "longitude": 4.264722},
- "percent": 38,
- "base": "Weindestillat",
- "botanicals": ["Wacholder", "Eichenfass"],
- "description": "",
- "asin": "B00VQRR4E6",
+ "image": "3.jpg",
+ "country": "Kolumbien",
+ "location3: {"latitude": 39.889444, "longitude": 4.264722},
+ "percent": 43,
+ "base": "",
+ "botanicals": ["Wacholder", "Rumfass", "Limette", "Minze", "Limon Mandarino"],
+ "description": "Neben den Rumabfüllungen produzierte man Dictador Colombian Aged Gin Black, einen Gin, welcher in Kolumbien destilliert wird und anschließend eine Reifung von 6 Monaten in Rumfässern erhält. Ausgesprochen ausdrucksstark und modern präsentiert sich diese hochwertige Abfüllung, welche in vollen Zügen überzeugen kann.",
+ "asin": "B00DW5H3UU",
  "alink": "83dbda6bdc05877ec89c4fc8673036dd"
 }
 
