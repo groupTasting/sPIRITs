@@ -55,7 +55,7 @@
       <div v-show="tasteDone" class="row" style="margin: 8px;">
         <div class="col-md-12">
           <h2>Botanicals</h2>
-          <img v-for="botanical in ginInfo.botanicals" v-bind:src="'../../data/gin/botanicals/'+botanical.toLowerCase()+'.png'" 
+          <img v-for="botanical in ginInfo.botanicals" v-bind:src="'../../data/gin/botanicals/'+isoStr(botanical)+'.png'" 
                v-bind:alt="botanical" v-bind:title="botanical" height="96px" style="float:left;">
         </div>
       </div>
