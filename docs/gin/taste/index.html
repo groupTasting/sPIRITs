@@ -53,6 +53,13 @@
        </div>
     </div> 
       <div v-show="tasteDone" class="row" style="margin: 8px;">
+        <div class="col-md-12">
+          <h2>Botanicals</h2>
+          <img v-for="botanical in ginInfo.botanicals" v-bind:src="'../../data/gin/botanicals/'+isoStr(botanical)+'.png'" 
+               v-bind:alt="botanical" v-bind:title="botanical" height="96px" style="float:left;">
+        </div>
+      </div>
+      <div v-show="tasteDone" class="row" style="margin: 8px;">
         <div class="col-md-6 ">
            <h2>Geruch <div class="geruchRatingOwn"></div><div class="geruchRatingAvg"></div></h2>
            <canvas id="geruchChart" ref="geruchChart" width="400" height="400"></canvas>
