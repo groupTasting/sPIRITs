@@ -27,13 +27,13 @@
         <div class="col-md-1 ">
           <div v-if="prevGin">
             <a v-bind:href="prevUrl"> <img src="../../img/backward.png" v-bind:alt="prevGin"></a>
-            <p>Previous Gin: # {{prevGin}}</p>
+            <p>Previous: # {{prevGin}}</p>
           </div>
        </div>
         <div class="col-md-4 ">
          <div v-if="tasteDone"> 
            <img v-bind:src="imgUrl" v-bind:alt="ginId" height="240px" style="float:left; margin: 12px;">
-           <h2>{{ginInfo.name}}</h2>
+           <h3>{{ginInfo.name}}</h3>
            <p>{{ginInfo.description}}</p>
          </div> 
        </div>
@@ -50,7 +50,7 @@
         <div class="col-md-1 ">
           <div v-if="nextGin">
             <a v-bind:href="nextUrl"> <img src="../../img/forward.png" v-bind:alt="nextGin"></a>
-            <p>Next Gin: # {{nextGin}}</p>
+            <p>Next: # {{nextGin}}</p>
           </div>
        </div>
     </div> 
@@ -58,13 +58,13 @@
       <div v-show="tasteDone" class="row" style="margin: 8px;">
         <div class="col-md-1 "></div>
         <div class="col-md-4 ">
-           <h2>Geruch <div class="geruchRatingOwn"></div><div class="geruchRatingAvg"></div></h2>
+           <h3>Geruch <div class="geruchRatingOwn"></div><div class="geruchRatingAvg"></div></h3>
            <canvas id="geruchChart" ref="geruchChart" width="400" height="400" style="max-height: 400px; max-width: 400px;"></canvas>
         </div> 
 <div class="col-md-1 "></div>
 <div class="col-md-1 "></div>
         <div class="col-md-4 ">
-           <h2>Geschmack <div class="geschmackRatingOwn"></div><div class="geschmackRatingAvg"></div></h2>
+           <h3>Geschmack <div class="geschmackRatingOwn"></div><div class="geschmackRatingAvg"></div></h3>
            <canvas id="geschmackChart" ref="geschmackChart" width="400" height="400" style="max-height: 400px; max-width: 400px;"></canvas>
         </div> 
         <div class="col-md-1 "></div>
@@ -73,7 +73,7 @@
       <div v-show="tasteDone" class="row" style="margin: 8px;">
          <div class="col-md-1 "></div>
          <div class="col-md-10">
-          <h2>Botanicals</h2>
+          <h3>Botanicals</h3>
           <img v-for="botanical in ginInfo.botanicals" v-bind:src="'../../data/gin/botanicals/'+isoStr(botanical)+'.png'" 
                v-bind:alt="botanical" v-bind:title="botanical" height="96px" style="float:left;">
         </div>
